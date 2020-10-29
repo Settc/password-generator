@@ -9,16 +9,62 @@
 </head>
 <body class="d-flex justify-content-center align-items-center">
 
-    <!-- <div class="d-flex justify-content-center align-items-center parent-container"> -->
-        <div class="container bg-warning rounded">
-            <div class="row">
+    <div class="container">
+        <div class="container rounded nested-container">
+            <div class="row pt-3">
                 <div class="col-6">
                     <h2>Generate a Password</h2>
                 </div>
             </div>
+            <div class="row">
+                <div class="col">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form class="mb-2">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">
+                                <h4>Password generates here</h4>
+                            </label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <form>
+                            <div class="form-group">
+                              <label for="formControlRange">Password length. Minimum 8, Maximum 128</label>
+                              <input type="range" class="form-control-range" id="formControlRange">
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Include uppercase
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Include lowercase
+                                </label>
+                              </div>
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                  Include numbers
+                                </label>
+                              </div>
+                            <div class="form-group form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Include special characters</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+    
         </div>
-
-    </div>
+                            
     
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

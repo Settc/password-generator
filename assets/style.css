@@ -2,3 +2,12 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+
+.nested-container {
+    background: #B3723D;
+    color: #135050;
+}
+
+hr {
+    background: #FFD582;
+}
