@@ -1,6 +1,8 @@
 body {
     min-height: 100vh;
     margin: 0;
+    font-family: 'Trispace', sans-serif;
+
 }
 
 .nested-container {
@@ -11,3 +13,4 @@ body {
 hr {
     background: #FFD582;
 }
+
